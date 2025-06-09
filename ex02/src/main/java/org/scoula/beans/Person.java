@@ -2,7 +2,7 @@ package org.scoula.beans;
 
 public class Person {
     private String name;
-    private Parrot parrot;
+    private Parrot parrot; // 의존성 필드
 
     public String getName() {
         return name;
