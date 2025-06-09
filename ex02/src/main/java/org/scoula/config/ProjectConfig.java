@@ -15,7 +15,7 @@ public class ProjectConfig {
     }
 
     @Bean
-    public Person person() {
+    public Person person(Parrot parrot) {
         Person p = new Person();
         p.setName("Ella");
         p.setParrot(parrot());
